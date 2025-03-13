@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circumference Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h2>Circumference Calculator</h2>
+        <label for="radius">Enter Radius:</label>
+        <input type="number" id="radius" placeholder="Radius" step="any">
+        <label for="diameter">Enter Diameter:</label>
+        <input type="number" id="diameter" placeholder="Diameter" step="any">
+        <button onclick="calculateCircumference()">Calculate</button>
+        <p id="result"></p>
+        <div class="formula">
+            <p>Formula for Circumference:</p>
+            <p><b>Using Radius:</b> C = 2πr</p>
+            <p><b>Using Diameter:</b> C = πd</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
